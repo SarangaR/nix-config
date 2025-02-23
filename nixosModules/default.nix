@@ -4,7 +4,7 @@
 }: {
   imports = [
     ./catppuccin.nix
-    ./authentication
+    # ./authentication
     ./desktopEnvironment
     ./gaming
     ./network
