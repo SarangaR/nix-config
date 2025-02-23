@@ -9,11 +9,11 @@
     inputs.nixos-hardware.nixosModules.lenovo-legion-16irx9h
   ];
 
-#  boot.loader.systemd-boot.enable = lib.mkForce false;
-#  boot.lanzaboote = {
-#    enable = true;
-#    pkiBundle = "/var/lib/sbctl";
-#  };
+ boot.loader.systemd-boot.enable = lib.mkForce false;
+ boot.lanzaboote = {
+   enable = true;
+   pkiBundle = "/var/lib/sbctl";
+ };
 
   services.fwupd.enable = true;
 
