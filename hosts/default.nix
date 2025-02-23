@@ -1,7 +1,4 @@
-{
-  inputs,
-  ...
-}: let
+{inputs, ...}: let
   inherit (inputs.nixpkgs.lib) nixosSystem;
   withCommonModules = path: ([path]
     ++ [
@@ -17,5 +14,5 @@ in {
         modules = withCommonModules ./pulsar;
       };
     };
- };
+  };
 }

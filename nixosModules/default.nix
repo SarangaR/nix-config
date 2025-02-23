@@ -1,7 +1,4 @@
-{
-  pkgs,
-  ...
-}: {
+{pkgs, ...}: {
   imports = [
     ./catppuccin.nix
     ./authentication
@@ -20,7 +17,7 @@
     shell = pkgs.zsh;
     isNormalUser = true;
     group = "saranga";
-    extraGroups = ["wheel" "plugdev" "docker" ];
+    extraGroups = ["wheel" "plugdev" "docker"];
   };
   users.groups.saranga = {};
 
