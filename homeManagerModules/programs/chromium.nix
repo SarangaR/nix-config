@@ -5,8 +5,6 @@
     extensions = [
       # uBlock Origin
       {id = "cjpalhdlnbpafiamejdnhcphjbkeiagm";}
-      # Bitwarden
-      {id = "nngceckbapebfimnlniiiahkandclblb";}
       # Dark Reader
       {id = "eimadpbcbfnmbkopoojfekhnkhdbieeh";}
       # Catppuccin Mocha Theme
