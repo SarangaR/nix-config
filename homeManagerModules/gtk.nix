@@ -2,12 +2,12 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Colloid-Green-Dark-Compact-Catppuccin";
+      name = "Colloid-Purple-Dark-Compact-Catppuccin";
       package = pkgs.colloid-gtk-theme.override {
-        themeVariants = ["green"];
+        themeVariants = ["all"];
         colorVariants = ["dark"];
-        sizeVariants = ["compact"];
-        tweaks = ["catppuccin" "black" "rimless"];
+        sizeVariants = ["standard"];
+        tweaks = ["catppuccin" "black" "rimless" "normal"];
       };
     };
   };

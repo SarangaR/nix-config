@@ -7,5 +7,6 @@
     useGlobalPkgs = true;
     useUserPackages = true;
     extraSpecialArgs = {inherit inputs;};
+    sharedModules = [ inputs.plasma-manager.homeManagerModules.plasma-manager ];
   };
 }
