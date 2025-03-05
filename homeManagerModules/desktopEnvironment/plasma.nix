@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   programs.plasma = {
-    enable = true;
+    enable = false;
     overrideConfig = true;
     #
     # Some high-level settings:

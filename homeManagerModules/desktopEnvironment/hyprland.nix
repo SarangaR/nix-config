@@ -141,7 +141,7 @@
 
       # https://wiki.hyprland.org/Configuring/Variables/#gestures
       gestures = {
-        workspace_swipe = false;
+        workspace_swipe = true;
         workspace_swipe_distance = 700;
         workspace_swipe_fingers = 3;
         workspace_swipe_cancel_ratio = 0.2;
