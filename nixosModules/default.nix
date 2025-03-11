@@ -46,5 +46,7 @@
     vim
     git
     acpi
+    vscode
+    just
   ];
 }

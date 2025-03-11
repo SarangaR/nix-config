@@ -6,6 +6,7 @@
     ./spotify.nix
     ./helix.nix
     ./bat.nix
+    ./mako.nix
     ./git.nix
   ];
 }

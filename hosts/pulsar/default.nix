@@ -13,6 +13,10 @@
   boot.lanzaboote = {
     enable = true;
     pkiBundle = "/var/lib/sbctl";
+    settings = {
+      timeout = null;
+      console-mode = "keep";
+    };
   };
 
   services.fwupd.enable = true;

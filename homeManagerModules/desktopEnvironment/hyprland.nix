@@ -21,6 +21,7 @@
       exec-once = [
         "hyprctl dispatch workspace 1"
         # "waybar"
+        "${pkgs.swaybg}/bin/swaybg -m fill -i ${./wallpapers/wallhaven-g7olpq_2560x1600.png}"
       ];
 
       env = [
@@ -118,7 +119,7 @@
       # https://wiki.hyprland.org/Configuring/Variables/#misc
       misc = {
         force_default_wallpaper = -1; # Set to 0 or 1 to disable the anime mascot wallpapers
-        disable_hyprland_logo = false; # If true disables the random hyprland logo / anime girl background. :(
+        disable_hyprland_logo = true; # If true disables the random hyprland logo / anime girl background. :(
       };
 
 
@@ -135,7 +136,8 @@
         sensitivity = 0; # -1.0 - 1.0, 0 means no modification.
 
         touchpad = {
-          natural_scroll = false;
+          natural_scroll = true;
+          scroll_factor = 0.5;
         };
       };
 
