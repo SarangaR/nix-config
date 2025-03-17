@@ -21,6 +21,8 @@
   };
   users.groups.saranga = {};
 
+  time.hardwareClockInLocalTime = true;
+
   services.upower.enable = true;
   users.mutableUsers = false;
   security.rtkit.enable = true;
