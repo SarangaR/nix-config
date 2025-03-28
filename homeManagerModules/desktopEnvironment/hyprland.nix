@@ -5,7 +5,8 @@
   config = let
     terminal = "kitty";
     fileManager = "dolphin";
-    menu = "wofi --show drun";
+    # menu = "wofi --show drun";
+    menu = "tofi-drun | xargs hyprctl dispatch exec --";
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
     secondaryMonitor = "HDMI-A-1";
@@ -137,7 +138,7 @@
 
         touchpad = {
           natural_scroll = true;
-          scroll_factor = 0.5;
+          scroll_factor = 1.0;
         };
       };
 
@@ -196,6 +197,8 @@
         "${mainMod} SHIFT, 8, movetoworkspace, 8"
         "${mainMod} SHIFT, 9, movetoworkspace, 9"
         "${mainMod} SHIFT, 0, movetoworkspace, 10"
+        "${mainMod} SHIFT, right, movetoworkspace, 6"
+        "${mainMod} SHIFT, left, movetoworkspace, 1"
         "${mainMod}, S, togglespecialworkspace, magic"
         "${mainMod} SHIFT, S, movetoworkspace, special:magic"
         "${mainMod}, mouse_down, workspace, e+1"

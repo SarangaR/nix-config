@@ -8,5 +8,6 @@
     ./bat.nix
     ./mako.nix
     ./git.nix
+    ./tofi.nix
   ];
 }
