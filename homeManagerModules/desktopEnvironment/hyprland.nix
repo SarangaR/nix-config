@@ -7,6 +7,7 @@
     fileManager = "dolphin";
     # menu = "wofi --show drun";
     menu = "tofi-drun | xargs hyprctl dispatch exec --";
+    browser = "zen";
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
     secondaryMonitor = "HDMI-A-1";
@@ -171,6 +172,7 @@
         "${mainMod}, R, exec, ${menu}"
         "${mainMod}, P, pseudo"
         "${mainMod}, J, togglesplit"
+        "${mainMod}, Z, exec, ${browser}"
         # "${mainMod}, left, movefocus, l"
         # "${mainMod}, right, movefocus, r"
         # "${mainMod}, up, movefocus, u"
