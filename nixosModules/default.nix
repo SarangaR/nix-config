@@ -50,5 +50,6 @@
     acpi
     vscode
     just
+    jujutsu
   ];
 }

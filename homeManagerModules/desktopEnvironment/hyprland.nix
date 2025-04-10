@@ -11,6 +11,7 @@
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
     secondaryMonitor = "HDMI-A-1";
+    screenshot = "grimblast copy area";
   in {
     wayland.windowManager.hyprland.enable = true;
 
@@ -179,6 +180,8 @@
         # "${mainMod}, down, movefocus, d"
         "ALT, Tab, cyclenext"
         "ALT, Tab, bringactivetotop"
+        # "${mainMod}, right, workspace, 6"
+        # "${mainMod}, left,  workspace, 1"
         "${mainMod}, 1, workspace, 1"
         "${mainMod}, 2, workspace, 2"
         "${mainMod}, 3, workspace, 3"
@@ -202,7 +205,7 @@
         "${mainMod} SHIFT, right, movetoworkspace, 6"
         "${mainMod} SHIFT, left, movetoworkspace, 1"
         "${mainMod}, S, togglespecialworkspace, magic"
-        "${mainMod} SHIFT, S, movetoworkspace, special:magic"
+        "${mainMod} SHIFT, S, exec, ${screenshot}"
         "${mainMod}, mouse_down, workspace, e+1"
         "${mainMod}, mouse_up, workspace, e-1"
       ];

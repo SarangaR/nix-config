@@ -10,5 +10,6 @@
       kitty
       waybar
       kdePackages.dolphin
+      grimblast
     ];
   }
