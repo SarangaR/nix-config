@@ -44,6 +44,12 @@
     };
   };
 
+  services.udev.extraRules = ''
+    ATTRS{idVendor}=="03e7", ATTRS{idProduct}=="2150", MODE="0666", GROUP="plugdev"
+  '';
+
+  services.gnome.gnome-keyring.enable = true;
+
   environment.systemPackages = with pkgs; [
     vim
     git
@@ -51,5 +57,7 @@
     vscode
     just
     jujutsu
+    discord
+    mpv
   ];
 }

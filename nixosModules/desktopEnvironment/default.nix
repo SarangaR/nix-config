@@ -5,6 +5,7 @@
   imports = [
     ./hypr/hyprland.nix
     ./greetd.nix
+    ./niri.nix
   ];
 
   # services = {
