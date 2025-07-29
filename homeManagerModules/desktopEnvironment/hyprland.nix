@@ -7,7 +7,7 @@
     fileManager = "dolphin";
     # menu = "wofi --show drun";
     menu = "tofi-drun | xargs hyprctl dispatch exec --";
-    browser = "zen";
+    browser = "chromium";
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
     secondaryMonitor = "HDMI-A-1";
