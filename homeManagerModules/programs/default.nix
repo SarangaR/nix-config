@@ -9,5 +9,6 @@
     ./mako.nix
     ./git.nix
     ./tofi.nix
+    ./yazi.nix
   ];
 }

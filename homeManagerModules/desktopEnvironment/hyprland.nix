@@ -10,7 +10,7 @@
     browser = "chromium";
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
-    secondaryMonitor = "HDMI-A-1";
+    secondaryMonitor = "DP-3";
     screenshot = "grimblast copy area";
   in {
     wayland.windowManager.hyprland.enable = true;
