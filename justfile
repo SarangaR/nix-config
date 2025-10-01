@@ -22,5 +22,6 @@ commit type message:
     #!/usr/bin/env bash
     set -euo pipefail
     if [ -n "$(git status --porcelain)" ]; then
+        git add .
         git commit --message "{{ type }}: {{ message }}"
     fi

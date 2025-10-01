@@ -173,6 +173,7 @@
         "${mainMod} Alt, M, exit"
         "${mainMod}, up, fullscreen,1"
         "${mainMod}, down, fullscreen,1"
+        "${mainMod}, M, fullscreen,0"
         "${mainMod}, V, togglefloating,"
         "${mainMod}, R, exec, ${menu}"
         "${mainMod}, P, pseudo"

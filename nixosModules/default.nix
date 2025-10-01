@@ -59,5 +59,6 @@
     jujutsu
     discord
     mpv
+    fzf
   ];
 }
