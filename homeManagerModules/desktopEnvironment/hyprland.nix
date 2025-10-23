@@ -10,7 +10,7 @@
     browser = "chromium";
     mainMod = "SUPER"; # Sets "Windows" key as main modifier
     primaryMonitor = "eDP-1";
-    secondaryMonitor = "DP-3";
+    secondaryMonitor = "DP-4";
     screenshot = "grimblast copy area";
   in {
     wayland.windowManager.hyprland.enable = true;
@@ -157,7 +157,7 @@
       };
       gesture = [
         "3, horizontal, workspace"
-        "4, down, close"
+        # "4, down, close"
       ];
 
       ###################
